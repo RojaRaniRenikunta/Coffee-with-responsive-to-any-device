@@ -1,0 +1,1129 @@
+*{
+    margin: 0px;
+    /* display: flex; */
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header2{
+    width: 100vw;
+    height: 7vmax;
+    background-color: rgb(33, 15, 3);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 10;
+}
+.p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.5vmax;
+    color: white;
+    font-weight: bold;
+}
+.s1{
+    color: rgb(235, 151, 15);
+}
+.s11{
+    color: rgb(251, 1, 1);
+}
+.b1{
+    border: 0px;
+    background-color: rgb(33, 15, 3);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    transition: all 5s;
+}
+.b1:hover{
+    text-decoration: underline;
+}
+.b2{
+    border: 0px;
+    background-color: rgb(33, 15, 3);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.b2:hover{
+    text-decoration: underline;
+}
+.b3{
+    border: 0px;
+    background-color: rgb(33, 15, 3);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.b3:hover{
+    text-decoration: underline;
+}
+.bimg{
+    width: 100vw;
+    height: 40vmax;
+    background-image: url("https://www.ncausa.org/portals/56/Images/AboutCoffee/NCA_Web_Large_coffee-beans-history.png?ver=2018-02-28-115401-897");
+    background-size: 100% 100%;
+    display: flex;
+}
+.divp{
+    width: 50%;
+    height: 9vmax;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div0{
+    width: 30%;
+    height: 9vmax;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;            
+}
+.p2
+{
+    font-size: 6vmax;
+    color: white;
+}
+.b4{
+    width: 10vmax;
+    height: 3vmax;
+    border-radius: 1.5vmax;
+    color: white;
+    border: 0px;
+    background-color: rgb(235, 151, 15);
+    font-size: 1.3vmax;
+    font-weight: bold;
+}
+.b4:hover{
+    background-color: white;
+    color:rgb(235, 151, 15);
+}
+.bimg2{
+    height: 38vmax;
+    width: 60vmax;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bimg1{
+    width: 40vmax;
+    height: 38vmax;
+    border-radius: 0px 20px 20px 0px;
+}
+.diva{
+    width: 90vw;
+    border-radius: 10px;
+    margin: 10VW;
+    height: 28vmax;
+    display: flex;
+}
+.diva1{
+    width: 50%;
+    height: 28vmax;
+    border-radius:20px 0px 0px 20px ;
+    background-color: rgb(8, 169, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p11 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vmax;
+    color: black;
+    font-weight: bold;
+}
+.p12 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vmax;
+    color: black;
+}
+.diva2{
+    width: 50%;
+    height: 28vmax;
+    background-image: url("https://us.123rf.com/450wm/29graphic/29graphic2308/29graphic230804755/211577645-up-shot-of-a-barrister-s-hands-expertly-pouring-latte-art-onto-the-surface-of-a-minimalist-coffee.jpg?ver=6" );
+    background-size: 100% 100%;
+}
+.b5{
+    width: 10vmax;
+    height: 3vmax;
+    border-radius: 1.5vmax;
+    color: white;
+    border: 0px;
+    background-color: black;
+    font-size: 1.3vmax;
+    font-weight: bold;
+}
+.b5:hover{
+    background-color: rgb(8, 169, 238);
+    color: white;
+    border: solid black 1px;
+}
+.divb{
+    width: 100vw;
+    height: 20vmax;
+    background-color: rgb(235, 151, 15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.divb1{
+    width: 40vmax;
+    height: 15vmax;
+    background-color: rgb(235, 151, 15);
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.bp1{
+    font-size: 4vmax;
+}
+.bp2{
+    font-size: 2.5vmax;
+}
+.divb2{
+    width: 40vmax;
+    height: 15vmax;
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img1{
+    height: 40%;
+    width: 15%;
+}
+.divb21{
+    width: 70%;
+    height: 100%;
+    font-size: 1.6vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.divc{
+    width: 100vw;
+    height: 35vmax;
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pc{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4.5vmax;
+    font-weight: bold;
+}
+.divc1{
+    width:75vw ;
+    height: 13vmax;
+    z-index: 5;
+    display: flex;
+}
+.divc11{
+    width: 25vw;
+    height: 15vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.divc1i{
+    width: 100%;
+    height: 80%;
+    z-index: 1;
+
+}
+.ic{
+    height: 80%;
+    width: 7vw;
+    z-index: 1;
+
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vmax;
+    font-weight: 550;
+    z-index: 1;
+
+}
+.pc2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(143, 142, 142);
+    font-size: 1.8vmax;
+    text-wrap: wrap;
+    text-align: center;
+}
+.d{
+    width: 100vw;
+    height: 43vmax;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.d1{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.d1p1{
+    font-size: 3vmax;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.d11{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d111{
+    width: 30%;
+    height: 65%;
+    border-radius: 50%;
+}
+.d112{
+    width: 60%;
+    height: 70%;
+}
+.d112p1{
+    font-size: 1.8vmax;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0.7vmax;
+}
+.d112p2{
+    font-size: 1.5vmax;
+    color: rgb(143, 142, 142);
+    margin-bottom: 0.5vmax;
+}
+.d112b{
+    width: 40%;
+    height: 25%;
+    background-color: rgb(235, 151, 15);
+    color: white;
+    font-size: 1.6vmax;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 30px;
+}
+.d112b:hover{
+    background-color: white;
+    border: solid rgb(235, 151, 15) 1px;
+    color: rgb(235, 151, 15);
+}
+.d2{
+    width: 40%;
+    height: 90%;
+    color: white;
+    background-color: rgb(69, 33, 7);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.d2p1{
+    font-size: 2vmax;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2vmax;
+}
+.d2p2{
+    width: 20%;
+    height: 1%;
+    background-color: rgb(235, 151, 15) ;
+    margin-bottom: 2vmax;
+}
+.d2i{
+    width: 80%;
+    
+}
+.d2p3{
+    font-size: 1.5vmax;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2vmax;
+}
+.d2p4{
+    font-size: 1.2vmax;
+    
+}
+.d2b{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(235, 151, 15);
+    color: white;
+    font-size: 1.6vmax;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 2vmax;
+}
+.d2b:hover{
+    background-color: white;
+    border: solid rgb(235, 151, 15) 1px;
+    color: rgb(235, 151, 15);
+}
+.e{
+    width: 100vw;
+    height: 25vmax;
+    background-color: rgb(69, 33, 7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.e1{
+    width: 40%;
+    height: 80%;
+}
+.e11{
+    font-size: 3vmax;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2vmax;
+}
+.e12{
+    font-size: 1.5vmax;
+    color: white;
+    margin-bottom: 1vmax;
+}
+.e1b{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    color: black;
+    font-size: 1.6vmax;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 30px;
+}
+.e1b:hover{
+    border: solid white 1px;
+    color: white;
+    background-color: rgb(69, 33, 7);
+}
+.e2{
+    width: 40%;
+    height: 80%;
+}
+.f{
+    width: 100vw;
+    height: 28vmax;
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fi{
+    width: 25%;
+}
+.f1{
+    width: 60%;
+    height: 18vmax;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+}
+.f1p1{
+    font-size: 3vmax;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1.5vmax;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.f1p2{
+    font-size: 1.8vmax;
+    color: rgb(102, 102, 102);
+    margin-bottom: 2vmax;
+}
+.f1d1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.f1d1 img{
+    width: 6vmax;
+    height: 7vmax;
+    padding-right: 2vw;
+}
+.f1d1 p{
+    font-size: 1.2vmax;
+    color: rgb(83, 83, 83);
+}
+.g{
+    width: 100vw;
+    height: 28vmax;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.g1{
+    width: 50%;
+    height: 18vmax;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 6vmax;
+}
+.g1p1{
+    font-size: 4vmax;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1vmax;
+}
+.g1p2{
+    font-size: 2.4vmax;
+    color: rgb(143, 142, 142);
+    margin-bottom: 2vmax;
+}
+.gi1{
+    width: 29%;
+}
+.g1b1{
+    width: 14vmax;
+    height: 4vmax;
+    border-radius: 2vmax;
+    color: white;
+    border: 0px;
+    background-color: rgb(235, 151, 15);
+    font-size: 1.3vmax;
+    font-weight: bold;
+}
+.g1b1:hover{
+    background-color: white;
+    color: rgb(235, 151, 15);
+    border: solid rgb(235, 151, 15) 1px;
+}
+.h{
+    width: 100vw;
+    height: 25vmax;
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hp1{
+    font-size: 2vmax;
+}
+.hd1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hd1i1{
+    height: 9vmax;
+    
+}
+.hd1i2{
+    height: 8.5vmax;
+    
+}
+.hp2{
+    font-size: 2vmax;
+}
+
+@media(max-width:800px)
+{
+.header2{
+    width: 100vw;
+    height: 20vmin;
+    background-color: rgb(33, 15, 3);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    z-index: 10;
+}
+.p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10.5vmin;
+    color: white;
+    font-weight: bold;
+}
+.s1{
+    color: rgb(235, 151, 15);
+}
+.b1{
+    border: 0px;
+    background-color: rgb(33, 15, 3);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5vmin;
+    margin-right: 5vmin;
+}
+.b1:hover{
+    text-decoration: underline;
+}
+.b2{
+    border: 0px;
+    background-color: rgb(33, 15, 3);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5vmin;
+    margin-right: 5vmin;
+}
+.b2:hover{
+    text-decoration: underline;
+}
+.b3{
+    border: 0px;
+    background-color: rgb(33, 15, 3);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5vmin;
+    margin-right: 5vmin;
+}
+.b3:hover{
+    text-decoration: underline;
+}
+.bimg{
+    width: 100vw;
+    height: 97vh;
+    background-image: url("https://www.ncausa.org/portals/56/Images/AboutCoffee/NCA_Web_Large_coffee-beans-history.png?ver=2018-02-28-115401-897");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divp{
+    width: 50%;
+    height: 50vmin;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div0{
+    width: 30%;
+    height: 50vmin;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;            
+}
+.p2
+{
+    font-size: 15vmin;
+    color: white;
+}
+.b4{
+    width: 30vmin;
+    height: 10vmin;
+    border-radius: 8vmin;
+    color: white;
+    border: 0px;
+    background-color: rgb(235, 151, 15);
+    font-weight: bold;
+    font-size: 4.3vmin;
+}
+.b4:hover{
+    background-color: white;
+    color:rgb(235, 151, 15);
+}
+.bimg2{
+    height: 58vmin;
+    width: 100%;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bimg1{
+    width: 0vmin;
+    height: 38vmin;
+}
+.diva{
+    width: 100vw;
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+}
+.diva1{
+    width: 100vw;
+    height: 50vmin;
+    background-color: rgb(8, 169, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p11 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7vmin;
+    color: black;
+    font-weight: bold;
+}
+.p12 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5vmin;
+    color: black;
+}
+.diva2{
+    width: 100vw;
+    height: 50vmin;
+    background-image: url("https://us.123rf.com/450wm/29graphic/29graphic2308/29graphic230804755/211577645-up-shot-of-a-barrister-s-hands-expertly-pouring-latte-art-onto-the-surface-of-a-minimalist-coffee.jpg?ver=6" );
+    background-size: 100% 100%;
+}
+.b5{
+    width: 25vmin;
+    height: 7vmin;
+    border-radius: 3.5vmin;
+    color: white;
+    border: 0px;
+    background-color: black;
+    font-size: 3.3vmin;
+    font-weight: bold;
+}
+.b5:hover{
+    background-color: rgb(8, 169, 238);
+    color: black;
+    border: solid black 1px;
+}
+.divb{
+    width: 90vw;
+    height: 60vmin;
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    border-radius: 8px;
+    background-color: rgb(235, 151, 15);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.divb1{
+    width: 80%;
+    height: 10vmin;
+    background-color: rgb(235, 151, 15);
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.bp1{
+    font-size: 7vmin;
+}
+.bp2{
+    font-size: 4vmin;
+}
+.divb2{
+    width: 80%;
+    height: 30vmin;
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img1{
+    height: 60%;
+    width: 23%;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.divb21{
+    width: 70%;
+    height: 100%;
+    font-size: 3.4vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.divc{
+    width: 90vmin;
+    height: 120vmin;
+    border-radius: 8px;
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pc{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6.5vmin;
+    margin-bottom: 5vmin;
+    font-weight: bold;
+}
+.divc1{
+    width:100% ;
+    height: 70%;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.divc11{
+    width: 80%;
+    height: 25vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.divc1i{
+    width: 100%;
+    height: 80%;
+    z-index: 1;
+
+}
+.ic{
+    height: 80%;
+    width: 20vw;
+    z-index: 1;
+
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4vmin;
+    font-weight: 550;
+    z-index: 1;
+
+}
+.pc2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(143, 142, 142);
+    font-size: 2.8vmin;
+    text-wrap: wrap;
+    text-align: center;
+}
+.d{
+    width: 100vw;
+    height: 190vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.d1{
+    width: 80%;
+    height: 45%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.d1p1{
+    font-size: 6vmin;
+    margin-top: 5vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.d11{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d111{
+    width: 30%;
+    height: 65%;
+    border-radius: 50%;
+}
+.d112{
+    width: 60%;
+    height: 70%;
+}
+.d112p1{
+    font-size: 3.8vmin;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0.7vmin;
+}
+.d112p2{
+    font-size: 3vmin;
+    color: rgb(143, 142, 142);
+    margin-bottom: 0.5vmin;
+}
+.d112b{
+    width: 40%;
+    height: 25%;
+    background-color: rgb(235, 151, 15);
+    color: white;
+    font-size: 3.6vmin;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 30px;
+}
+.d112b:hover{
+    background-color: white;
+    border: solid rgb(235, 151, 15) 1px;
+    color: rgb(235, 151, 15);
+}
+.d2{
+    width: 90%;
+    height: 45%;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(69, 33, 7);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.d2p1{
+    font-size: 7vmin;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2vmin;
+}
+.d2p2{
+    width: 20%;
+    height: 1%;
+    background-color: rgb(235, 151, 15) ;
+    margin-bottom: 2vmin;
+}
+.d2i{
+    width: 80%;
+}
+.d2p3{
+    font-size: 5.5vmin;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2vmin;
+}
+.d2p4{
+    font-size: 3vmin;
+    
+}
+.d2b{
+    width: 100%;
+    height: 15%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(235, 151, 15);
+    color: white;
+    font-size: 4.6vmin;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 2vmin;
+}
+.d2b:hover{
+    background-color: white;
+    border: solid rgb(235, 151, 15) 1px;
+    color: rgb(235, 151, 15);
+}
+.e{
+    width: 90%;
+    height: 100vmin;
+    border-radius: 8px;
+    background-color: rgb(69, 33, 7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.e1{
+    width: 80%;
+    height: 30%;
+}
+.e11{
+    font-size: 7vmin;
+    font-weight: bold;
+    margin-bottom: 3vmin;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.e12{
+    font-size: 3.5vmin;
+    margin-bottom: 2vmin;
+    text-wrap: wrap;
+    color: white;
+}
+.e1b{
+    width: 40%;
+    height: 25%;
+    background-color: white;
+    color: black;
+    font-size: 3.6vmin;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 30px;
+}
+.e1b:hover{
+    border: solid white 1px;
+    color: white;
+    background-color: rgb(69, 33, 7);
+}
+.e2{
+    width: 80%;
+    height: 40%;
+}
+.f{
+    width: 90%;
+    height: 115vmin;
+    border-radius: 8px;
+    margin-top: 5vmin;
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.fi{
+    width: 90%;
+}
+.f1{
+    width: 90%;
+    margin-top: 3vmin;
+    height: 18vmin;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 5vmin;
+}
+.f1p1{
+    font-size: 7vmin;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1.5vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.f1p2{
+    font-size: 4.8vmin;
+    color: rgb(102, 102, 102);
+    margin-bottom: 2vmin;
+}
+.f1d1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.f1d1 img{
+    width: 20vmin;
+    height: 18vmin;
+    padding-right: 2vw;
+}
+.f1d1 p{
+    font-size: 2.6vmin;
+    text-wrap: wrap;
+    color: rgb(83, 83, 83);
+}
+.g{
+    width: 90vw;
+    height: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+.g1{
+    width: 90%;
+    height: 25vmin;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.g1p1{
+    font-size: 7vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1vmin;
+}
+.g1p2{
+    font-size: 4.4vmin;
+    color: rgb(143, 142, 142);
+    margin-bottom: 2vmin;
+}
+.gi1{
+    width: 80%;
+}
+.g1b1{
+    width: 25vmin;
+    height: 8vmin;
+    border-radius: 5vmin;
+    color: white;
+    border: 0px;
+    background-color: rgb(235, 151, 15);
+    font-size: 3.3vmin;
+    font-weight: bold;
+}
+.g1b1:hover{
+    background-color: white;
+    color: rgb(235, 151, 15);
+    border: solid rgb(235, 151, 15) 1px;
+}
+.h{
+    width: 100vw;
+    height: 80vmin;
+    border-radius: 8px;
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hp1{
+    font-size: 6vmin;
+    text-wrap: wrap;
+    text-align: center;
+}
+.hd1{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hd1i1{
+    width: 85%;
+    height: 70%;
+    
+}
+.hd1i2{
+    width: 100%;
+    height: 60%;
+}
+.hp2{
+    font-size: 5vmin;
+    margin-top: 10vmin;
+}
+}
